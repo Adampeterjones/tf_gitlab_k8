@@ -1,0 +1,6 @@
+region="eu-west-2"
+bucket="test-tfstate"
+key="test-eks-kubernetes-gitlab.tfstate"
+dynamodb_table="test-tfstate"
+encrypt="true"
+role_arn="arn:aws:iam::120987654321:role/tfstate-mgnt-role-test"
